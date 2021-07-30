@@ -1,0 +1,30 @@
+.make-appointment{
+    background-image: url('../../../images/Mask\ Group\ 4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: block; */
+    background-position: relative;
+    height: 420px;
+    background-position: center center;
+    background-color: rgb(36, 41, 73);
+    margin-top: 70px;
+    /* z-index: 2; */
+
+}
+.make-appointment::before{
+    content:'';
+    display: block;
+    width:100%;
+    height:100%;
+    top: 0;
+    position:absolute;
+    background: rgb(36,41,73);
+    transform:translateY(2013px);
+    opacity: 0.8;
+    height: 420px;
+}
+.make-appointment img{
+    height: 580px;
+    transform: translateY(-160px);
+
+}
